@@ -1,13 +1,4 @@
-This project contains the web client (<https://loved.sh>), API server (<https://loved.sh/api>), and related tools for osu!'s [Project Loved](https://osu.ppy.sh/wiki/Project_Loved). See [cl8n/project-loved](https://github.com/cl8n/project-loved) for more management tools.
-
-> [!IMPORTANT]
-> This project is no longer maintained. You may reference or clone it if you want, but I don't recommend it.
->
-> Tools for Project Loved were some of the first programs I built with the intention of helping users beyond myself. This codebase began in 2021, but some form of what eventually became this website was developed and used since at least a few years prior.
->
-> In its final state, there are many clear shortcomings of the design here. I would have liked to improve the state management in the client and systems for data integrity in the server but never got around to it. I had big ideas for the UI that I similarly didn't end up investing my time in. Overall the code quality is poor but I think that's par for the course in little hobby projects.
->
-> The Project Loved website taught me a lot about web technology, the osu! social landscape, and myself. Thank you for helping and thank you for using my software —Clayton
+This project contains the web client (<https://loved.sh>), API server (<https://loved.sh/api>), and related tools for osu!'s [Project Loved](https://osu.ppy.sh/wiki/Project_Loved). See [Hiviexd/loved-script](https://github.com/Hiviexd/loved-script) for more management tools.
 
 ## Development with Docker
 
