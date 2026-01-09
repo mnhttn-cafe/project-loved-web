@@ -30,12 +30,6 @@ export default function Beatmap({ beatmapset, gameMode }: BeatmapProps) {
       },
     },
     {
-      label: 'Open in new tab',
-      onClick: () => {
-        window.open(link, '_blank', 'noopener,noreferrer');
-      },
-    },
-    {
       label: 'Open in osu!',
       onClick: () => {
         window.location.href = `osu://b/${beatmapset.id}`;
