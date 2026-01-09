@@ -55,7 +55,7 @@ function UserInlineContainer({ children, user }: PropsWithChildren<UserInlineCon
   return user.banned ? (
     <span className='no-wrap'>{children}</span>
   ) : (
-    <a className='no-wrap' href={`https://osu.ppy.sh/users/${user.id}`}>
+    <a className='no-wrap' href={`https://osu.ppy.sh/users/${user.id}`}  target='_blank' rel='noopener,noreferrer'>
       {children}
     </a>
   );
